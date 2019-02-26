@@ -1,0 +1,6 @@
+galaxy_info:
+  author: Alexandru Barbur
+  description: Installs Python 3 on CentOS and RHEL 7.
+  company: Nimbis Services, Inc.
+  license: BSD
+  min_ansible_version: 2.4
