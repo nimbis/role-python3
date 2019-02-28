@@ -6,3 +6,9 @@
       - python36-pip
       - python36-devel
     state: present
+
+- name: Create Python 3 symlink
+  file:
+    src: /bin/python36
+    dest: /usr/bin/python3
+    state: link
